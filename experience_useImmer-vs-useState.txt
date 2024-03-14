@@ -1,0 +1,11 @@
+experience using useImmer vs useState
+
+useImmer seems to simplify immutability than with useState. When using the draft state with useImmer it makes it easier to update the state. with useState, you have to ensure immutability by manually creating copies of state objects or array. 
+
+useImmer is also better readability wise especially with nested state, considering it can get long and difficult to understand if using useState. 
+
+useImmer is also better at performance and managing state updates when it changes only, which can lead to better optimization. with useState you have to manually create state copies when dealing with immutability so performance wise it can degrade overtime especially with large nested structures. 
+
+Overall it seems useImmer is a more concise and convienient way of handling complex state updates while useState seems to be a step behind and requires a more robust way of handling these state updates yourself. 
+
+ 
